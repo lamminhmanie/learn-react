@@ -1,3 +1,19 @@
 Learning:
 Learn React JS - Full Beginner’s Tutorial & Practice Projects
 Link: https://youtu.be/x4rFhThSX04?si=5lwf7Uqugf-vTn3q
+Learn theory in this FreeCodeCamp course
+
+React Vietnamese doc:
+https://vi.legacy.reactjs.org/docs/getting-started.html
+
+React English doc:
+https://react.dev/learn
+
+React installation guide and course:
+React JS 19 Full Course 2025 | Build an App and Master React in 2 Hours
+https://youtu.be/dCLhUialKPQ?si=jFsI2f6rUO6Xtqs2&t=450
+Learn project from this course.
+
+If feeling boring, can go back to this course to learn git advance
+Git for Professionals Tutorial - Tools & Concepts for Mastering Version Control with Git
+https://youtu.be/Uszj_k0DGsg?si=9ukhUromVN0NbZ0h
