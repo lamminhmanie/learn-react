@@ -9,11 +9,25 @@
 //   </StrictMode>,
 // )
 
+import "./index.css"
 import { createRoot } from 'react-dom/client'
-createRoot(document.getElementById("root")).render(
-  <ul>
-    <li>Super popular JS library</li>
-    <li>Will help me be even more employable</li>
-    <li>React has a pretty cool logo</li>
-  </ul>
+import { Fragment } from 'react'
+const root = createRoot(document.getElementById("root"))
+
+import { Header } from "./react-component/Header.jsx"
+import MainContent from "./react-component/MainContent.jsx"
+import Footer from "./react-component/Footer.jsx"
+
+function Page(){
+    return(
+        <>
+            <Header />
+            <MainContent />
+            <Footer />
+        </>
+    )
+}
+
+root.render(
+    <Page />
 )
