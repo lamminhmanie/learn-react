@@ -1,40 +1,35 @@
 * {
   margin: 0;
   padding: 0;
-}
-body{
-  /* padding: 20px; */
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  box-sizing: border-box;
 }
 
-.header {
-  padding: 20px;
-  background: #27292c;
+body {
+  margin: 0;
+  font-family: Inter, san-serif;
+}
+
+header {
+  height: 90px;
+  background-color: #21222A;
+  padding: 30px 25px;
+}
+
+nav {
   display: flex;
-  gap: 10px;
-}
-.header-heading {
-  color: #00D8FF;
+  align-items: center;
+  height: 100%;
 }
 
-.main-content {
-  padding: 20px;
-  background-color: #525a66;
-  background-image: url(/src/assets/react.svg);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: 200px;
-  background-blend-mode: luminosity;
+nav > img {
+  width: 40px;
+  margin-right: 7px;
 }
 
-.main-content--list {
-  padding:  20px 40px 40px 40px;
-  
-}
-
-.main-content--list-item::marker{
-  color: #00D8FF;
+nav > span {
+  color: #61DAFB;
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 
 /* :root {

@@ -11,20 +11,10 @@
 
 import './index.css'
 import { createRoot } from 'react-dom/client'
-import Header from "./react-component/Header"
-import MainContent from './react-component/MainContent';
-
-const root = createRoot(document.getElementById("root"));
-
-function Page() {
-    return(
-        <>
-        <Header />
-        <MainContent />
-        </>
-    )
-}
-
+import App from './App.jsx'
+const root = createRoot(document.getElementById('root'))
 root.render(
-    <Page />
+    <>
+        <App />
+    </>
 )
