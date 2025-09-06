@@ -1,12 +1,15 @@
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   font-family: Inter, san-serif;
+  background-color: #282d35;
+  color: white;
+
 }
 
 header {
@@ -30,6 +33,37 @@ nav > span {
   color: #61DAFB;
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+main {
+  padding: 60px 30px;
+  background-blend-mode: luminosity;
+  background-color: #282d35;
+  background-image: url(assets/react.svg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position: right 70%;
+  
+}
+
+main > h1 {
+  margin-top: 0;
+  font-size: 2.4rem;
+}
+
+.facts-list {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.facts-list > li {
+  padding-block: 10px;
+  line-height: 19px;
+}
+
+.facts-list > li::marker {
+  color: #61DAFB;
+  font-size: 1.5rem;
 }
 
 /* :root {
